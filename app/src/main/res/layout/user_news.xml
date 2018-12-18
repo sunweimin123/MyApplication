@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserNewsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/title"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="357dp"
+            android:layout_height="528dp"
+            android:layout_gravity="center"
+
+            android:id="@+id/content"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:text="应聘"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

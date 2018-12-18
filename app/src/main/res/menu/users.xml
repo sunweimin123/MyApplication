@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id = "@+id/recru_news"
+        android:title= "兼职信息"/>
+
+    <item
+        android:id="@+id/recru_stat"
+        android:title="应聘状态"/>
+
+</menu>

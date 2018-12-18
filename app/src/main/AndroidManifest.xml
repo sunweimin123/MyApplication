@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sunweimin.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".UserLoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserSignUpActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MerchantLoginActivity"
+            android:label="@string/title_activity_merchant" />
+        <activity android:name=".MerchantSignUpActivity" />
+        <activity
+            android:name=".UserActivity"
+            android:label="兼职信息" />
+        <activity
+            android:name=".UserNewsActivity"
+            android:label="UserNewsActivity" />
+        <activity
+            android:name=".UserStateActivity"
+            android:label="用户状态" />
+        <activity
+            android:name=".MerchantActivity"
+            android:label="兼职信息" />
+        <activity
+            android:name=".MerchantRecruChecActivity"
+            android:label="应聘人员" />
+        <activity
+            android:name=".MerchantStateModiActivity"
+            android:label="状态修改" />
+        <activity
+            android:name=".MerchantNewsPutActivity"
+            android:label="兼职发布" />
+        <activity android:name=".MerchantNews"></activity>
+    </application>
+
+</manifest>
